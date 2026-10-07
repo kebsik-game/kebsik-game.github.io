@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kebsik — Döner-Imbiss-Simulator für Android</title>
+<meta name="description" content="Führe deinen Dönerladen in Kebsik: Erweitere das Menü, stelle Personal ein und meistere Aufgaben. Ein Wirtschaftsspiel für Android mit Offline-Spiel.">
+<link rel="canonical" href="https://kebsik-game.github.io/de/">
+<link rel="alternate" hreflang="pl" href="https://kebsik-game.github.io/">
+<link rel="alternate" hreflang="en" href="https://kebsik-game.github.io/en/">
+<link rel="alternate" hreflang="de" href="https://kebsik-game.github.io/de/">
+<link rel="alternate" hreflang="tr" href="https://kebsik-game.github.io/tr/">
+<link rel="alternate" hreflang="x-default" href="https://kebsik-game.github.io/">
+<link rel="icon" type="image/png" sizes="1024x1024" href="/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kebsik">
+<meta property="og:title" content="Kebsik — Döner-Imbiss-Simulator für Android">
+<meta property="og:description" content="Führe deinen Dönerladen in Kebsik: Erweitere das Menü, stelle Personal ein und meistere Aufgaben. Ein Wirtschaftsspiel für Android mit Offline-Spiel.">
+<meta property="og:url" content="https://kebsik-game.github.io/de/">
+<meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://kebsik-game.github.io/logo.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:alt" content="Kebsik">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kebsik — Döner-Imbiss-Simulator für Android">
+<meta name="twitter:description" content="Führe deinen Dönerladen in Kebsik: Erweitere das Menü, stelle Personal ein und meistere Aufgaben. Ein Wirtschaftsspiel für Android mit Offline-Spiel.">
+<meta name="twitter:image" content="https://kebsik-game.github.io/logo.png">
+<style>
+body{font:16px/1.55 system-ui,sans-serif;max-width:760px;margin:24px auto;padding:0 16px;color:#2B2320;background:#FFF8EC}
+.brand{display:flex;justify-content:center;margin:0 0 20px}
+.brand img{display:block;width:180px;height:auto;max-width:100%;object-fit:contain}
+h1{font-size:26px;line-height:1.2;margin:20px 0 12px}
+h2{margin-top:28px;border-top:1px solid #E8D7B4;padding-top:16px;font-size:20px}
+a{color:#9A3412}nav{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:15px}
+nav [aria-current=page]{font-weight:700;text-decoration-thickness:2px}
+.cta{display:block;margin:20px 0;padding:12px 18px;border-radius:10px;background:#2B2320;color:#FFF8EC;font-weight:600}
+dl dt{font-weight:600;margin-top:12px}dl dd{margin:2px 0 0}
+table{border-collapse:collapse;width:100%;font-size:15px}
+td{border-top:1px solid #E8D7B4;padding:6px 8px 6px 0;vertical-align:top}
+td:first-child{font-weight:600;padding-right:14px;width:28%;overflow-wrap:normal}
+p,td,dd,li{overflow-wrap:anywhere}footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-top:12px}
+</style>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://kebsik-game.github.io/#website",
+      "url": "https://kebsik-game.github.io/",
+      "name": "Kebsik",
+      "inLanguage": [
+        "pl",
+        "en",
+        "de",
+        "tr"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kebsik-game.github.io/de/#page",
+      "url": "https://kebsik-game.github.io/de/",
+      "name": "Kebsik — Döner-Imbiss-Simulator für Android",
+      "description": "Führe deinen Dönerladen in Kebsik: Erweitere das Menü, stelle Personal ein und meistere Aufgaben. Ein Wirtschaftsspiel für Android mit Offline-Spiel.",
+      "inLanguage": "de",
+      "isPartOf": {
+        "@id": "https://kebsik-game.github.io/#website"
+      },
+      "about": {
+        "@id": "https://kebsik-game.github.io/#game"
+      }
+    },
+    {
+      "@type": [
+        "VideoGame",
+        "MobileApplication"
+      ],
+      "@id": "https://kebsik-game.github.io/#game",
+      "name": "Kebsik: Kebab Shop Simulator",
+      "alternateName": "Kebsik",
+      "url": "https://kebsik-game.github.io/",
+      "description": "Kebsik ist ein Döner-Imbiss-Simulator und Wirtschaftsspiel für Android. Eröffne einen kleinen Dönerladen: Lege Preise fest, bestelle Zutaten, stelle dein Team ein und entwickle deinen Betrieb. Entscheide, wohin dein verdientes Geld fließt.",
+      "image": "https://kebsik-game.github.io/logo.png",
+      "genre": "Döner-Imbiss-Simulator, Wirtschaftsspiel, Restaurant-Management",
+      "gamePlatform": "Android",
+      "operatingSystem": "Android",
+      "applicationCategory": "GameApplication",
+      "playMode": "SinglePlayer",
+      "inLanguage": [
+        "pl",
+        "en",
+        "de",
+        "tr"
+      ],
+      "creativeWorkStatus": "InDevelopment",
+      "publisher": {
+        "@id": "https://kebsik-game.github.io/#dev"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://kebsik-game.github.io/#dev",
+      "name": "Kebsik",
+      "url": "https://kebsik-game.github.io/",
+      "email": "kayacidev@gmail.com",
+      "logo": "https://kebsik-game.github.io/logo.png"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://kebsik-game.github.io/de/#faq",
+      "inLanguage": "de",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was ist Kebsik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kebsik ist ein Döner-Imbiss-Simulator und Wirtschaftsspiel für Android. Du führst einen Laden in einer polnischen Stadt, legst Preise fest, bestellst Zutaten, stellst Personal ein und erweiterst das Menü."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert Kebsik offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das eigentliche Spiel funktioniert offline. Käufe, Werbung, Aktualisierungs- und Einstellungsprüfungen sowie freiwillige Rückmeldungen nutzen das Internet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist es ein Kochspiel mit Zeitlimit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es ist ein Spiel über Restaurant-Management. Preise, Qualität, Vorräte, Personal und Kosten beeinflussen das Ergebnis. Du kannst die Zeit anhalten oder beschleunigen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie entwickelt sich der Laden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Erledige Aufgaben und sammle Erfahrung und Belohnungen. Mit höheren Leveln schaltest du Investitionen, einen größeren Dönerspieß, zusätzliche Grills und neue Menüoptionen frei."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Brauche ich ein Konto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ein Spielkonto ist nicht nötig. Der Spielstand bleibt auf deinem Gerät; nutze die Sicherungsfunktion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Werbung und Käufe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das Spiel enthält Werbung und optionale Einmalkäufe. Es gibt kein Abo und keine Zufallsboxen. Der Kauf zur Werbeentfernung schaltet Werbung zwischen den Monaten ab; Belohnungsvideos bleiben freiwillig."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Sprachen werden unterstützt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kebsik unterstützt Polnisch, Englisch, Deutsch und Türkisch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wo kann ich Kebsik herunterladen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Android-Version wird für Google Play vorbereitet. Der Download-Link folgt nach den Tests und der bestätigten Veröffentlichung."
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+
+</head>
+<body>
+<header>
+<div class="brand"><img src="/logo.png" alt="Kebsik" width="1024" height="1024" fetchpriority="high"></div>
+<nav aria-label="Sprache wählen"><a href="/" lang="pl" hreflang="pl">Polski</a><a href="/en/" lang="en" hreflang="en">English</a><a href="/de/" lang="de" hreflang="de" aria-current="page">Deutsch</a><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a><a href="/gizlilik.html">Datenschutz</a><a href="/kosullar.html">Nutzungsbedingungen</a></nav>
+</header>
+<main id="de">
+<h1>Kebsik: Kebab Shop Simulator</h1>
+<p class="definition">Kebsik ist ein Döner-Imbiss-Simulator und Wirtschaftsspiel für Android. Eröffne einen kleinen Dönerladen: Lege Preise fest, bestelle Zutaten, stelle dein Team ein und entwickle deinen Betrieb. Entscheide, wohin dein verdientes Geld fließt.</p>
+<p class="cta" role="status">Die Android-Version wird vorbereitet. Der Google-Play-Start folgt nach den Tests.</p>
+<section><h2>Informationen zum Spiel</h2><table><tr><td>Plattform</td><td>Android-Smartphones, Hochformat</td></tr><tr><td>Spielmodus</td><td>Einzelspieler; das eigentliche Spiel funktioniert offline</td></tr><tr><td>Sprachen</td><td>Polnisch, Englisch, Deutsch, Türkisch</td></tr><tr><td>Download und Käufe</td><td>Download ohne Kosten geplant; Werbung und optionale Einmalkäufe; kein Abo</td></tr><tr><td>Verfügbarkeit</td><td>In Vorbereitung; Veröffentlichung nach den Tests</td></tr><tr><td>Kontakt</td><td>kayacidev@gmail.com</td></tr></table></section>
+<section><h2>Dein laden, deine entscheidungen</h2><p>Stimme Preis und Qualität aufeinander ab, behalte Vorräte im Blick und finde heraus, warum Gäste die Schlange verlassen. Ein größerer Grill hilft bei steigender Nachfrage; zusätzliches Personal bringt Vorteile und Kosten. Monatsberichte zeigen Einnahmen, Ausgaben und Ergebnis.</p></section><section><h2>Ein ziel für jede etappe</h2><p>Erledige Aufgaben und sammle Erfahrung und Belohnungen. Schalte neue Möglichkeiten frei, erweitere die Speisekarte und plane Investitionen. Pan Mistrz führt dich in den Alltag hinter der Theke ein. Kurze Aktivitäten helfen dir, Gäste zu betreuen und neue Kunden zu gewinnen.</p></section><section><h2>Eine lebendige stadt</h2><p>Wetter, Ereignisse und Entscheidungskarten beeinflussen deinen Betrieb. Gäste kommen, bestellen und sitzen an Tischen. Halte die Zeit an, überlege dir deinen nächsten Schritt und führe den Laden weiter.</p></section><section><h2>Dein spielstil</h2><p>Wähle einen Schwierigkeitsgrad. Entwickle deinen Betrieb über Preise, Qualität, Speisekarte, Personal und Marketing. In diesem Tycoon-Spiel über Restaurant-Management haben Entscheidungen Kosten und Folgen.</p></section><section><h2>Gut zu wissen</h2><ul><li>Das eigentliche Spiel funktioniert offline. Käufe, Werbung, Aktualisierungen und freiwillige Rückmeldungen nutzen das Internet.</li><li>Kein Spielkonto erforderlich. Dein Spielstand bleibt auf dem Gerät; nutze die Sicherungsfunktion.</li><li>Enthält Werbung und optionale Einmalkäufe. Kein Abo und keine Zufallsboxen.</li><li>Der Kauf zur Werbeentfernung schaltet Werbung zwischen den Monaten ab. Belohnungsvideos bleiben freiwillig.</li><li>Sprachen: Polnisch, Türkisch, Englisch und Deutsch.</li></ul></section>
+<section id="faq"><h2>Fragen zum Spiel</h2><dl><dt>Was ist Kebsik?</dt><dd>Kebsik ist ein Döner-Imbiss-Simulator und Wirtschaftsspiel für Android. Du führst einen Laden in einer polnischen Stadt, legst Preise fest, bestellst Zutaten, stellst Personal ein und erweiterst das Menü.</dd><dt>Funktioniert Kebsik offline?</dt><dd>Das eigentliche Spiel funktioniert offline. Käufe, Werbung, Aktualisierungs- und Einstellungsprüfungen sowie freiwillige Rückmeldungen nutzen das Internet.</dd><dt>Ist es ein Kochspiel mit Zeitlimit?</dt><dd>Es ist ein Spiel über Restaurant-Management. Preise, Qualität, Vorräte, Personal und Kosten beeinflussen das Ergebnis. Du kannst die Zeit anhalten oder beschleunigen.</dd><dt>Wie entwickelt sich der Laden?</dt><dd>Erledige Aufgaben und sammle Erfahrung und Belohnungen. Mit höheren Leveln schaltest du Investitionen, einen größeren Dönerspieß, zusätzliche Grills und neue Menüoptionen frei.</dd><dt>Brauche ich ein Konto?</dt><dd>Ein Spielkonto ist nicht nötig. Der Spielstand bleibt auf deinem Gerät; nutze die Sicherungsfunktion.</dd><dt>Gibt es Werbung und Käufe?</dt><dd>Das Spiel enthält Werbung und optionale Einmalkäufe. Es gibt kein Abo und keine Zufallsboxen. Der Kauf zur Werbeentfernung schaltet Werbung zwischen den Monaten ab; Belohnungsvideos bleiben freiwillig.</dd><dt>Welche Sprachen werden unterstützt?</dt><dd>Kebsik unterstützt Polnisch, Englisch, Deutsch und Türkisch.</dd><dt>Wo kann ich Kebsik herunterladen?</dt><dd>Die Android-Version wird für Google Play vorbereitet. Der Download-Link folgt nach den Tests und der bestätigten Veröffentlichung.</dd></dl></section>
+</main>
+<footer><p>Kebsik · <a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a> · <a href="/gizlilik.html">Datenschutz</a> · <a href="/kosullar.html">Nutzungsbedingungen</a></p></footer>
+</body>
+</html>

@@ -3,55 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kebsik: Kebab Shop Simulator — symulator kebaba na Androida</title>
-<meta name="description" content="Kebsik to symulator kebaba i gra ekonomiczna na Androida: prowadzisz budkę z kebabem, zamawiasz mięso, ustalasz ceny, zatrudniasz ekipę i otwierasz kolejne lokale. Offline, 4 języki, jednorazowe zakupy, bez subskrypcji.">
-<!-- KANONIK: yayindaki kok adres (docs/DEVAM_PLANI.md). Alan adi degisirse burayi, og:url'yi, hreflang'leri ve JSON-LD "url"yi birlikte degistir. -->
+<title>Kebsik — symulator kebaba i gra ekonomiczna na Androida</title>
+<meta name="description" content="Prowadź budkę z kebabem w Kebsik: rozwijaj menu, zatrudniaj ekipę, wykonuj zadania i kontroluj koszty. Symulator kebaba na Androida. Rozgrywka offline.">
 <link rel="canonical" href="https://kebsik-game.github.io/">
-<link rel="icon" type="image/png" sizes="1024x1024" href="logo.png">
 <link rel="alternate" hreflang="pl" href="https://kebsik-game.github.io/">
-<link rel="alternate" hreflang="en" href="https://kebsik-game.github.io/#en">
-<link rel="alternate" hreflang="de" href="https://kebsik-game.github.io/#de">
-<link rel="alternate" hreflang="tr" href="https://kebsik-game.github.io/#tr">
+<link rel="alternate" hreflang="en" href="https://kebsik-game.github.io/en/">
+<link rel="alternate" hreflang="de" href="https://kebsik-game.github.io/de/">
+<link rel="alternate" hreflang="tr" href="https://kebsik-game.github.io/tr/">
 <link rel="alternate" hreflang="x-default" href="https://kebsik-game.github.io/">
+<link rel="icon" type="image/png" sizes="1024x1024" href="/logo.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kebsik">
-<meta property="og:title" content="Kebsik: Kebab Shop Simulator">
-<meta property="og:description" content="Symulator kebaba na Androida: od jednej budki z kebabem do własnego budynku i sieci lokali. Offline, bez subskrypcji.">
+<meta property="og:title" content="Kebsik — symulator kebaba i gra ekonomiczna na Androida">
+<meta property="og:description" content="Prowadź budkę z kebabem w Kebsik: rozwijaj menu, zatrudniaj ekipę, wykonuj zadania i kontroluj koszty. Symulator kebaba na Androida. Rozgrywka offline.">
 <meta property="og:url" content="https://kebsik-game.github.io/">
 <meta property="og:locale" content="pl_PL">
-<meta property="og:locale:alternate" content="en_US">
-<meta property="og:locale:alternate" content="de_DE">
-<meta property="og:locale:alternate" content="tr_TR">
 <meta property="og:image" content="https://kebsik-game.github.io/logo.png">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="1024">
 <meta property="og:image:alt" content="Kebsik">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Kebsik — symulator kebaba i gra ekonomiczna na Androida">
+<meta name="twitter:description" content="Prowadź budkę z kebabem w Kebsik: rozwijaj menu, zatrudniaj ekipę, wykonuj zadania i kontroluj koszty. Symulator kebaba na Androida. Rozgrywka offline.">
 <meta name="twitter:image" content="https://kebsik-game.github.io/logo.png">
 <style>
 body{font:16px/1.55 system-ui,sans-serif;max-width:760px;margin:24px auto;padding:0 16px;color:#2B2320;background:#FFF8EC}
 .brand{display:flex;justify-content:center;margin:0 0 20px}
 .brand img{display:block;width:180px;height:auto;max-width:100%;object-fit:contain}
-h1{font-size:26px;line-height:1.2;margin:8px 0}
+h1{font-size:26px;line-height:1.2;margin:20px 0 12px}
 h2{margin-top:28px;border-top:1px solid #E8D7B4;padding-top:16px;font-size:20px}
-h3{font-size:17px;margin:18px 0 4px}
-a{color:#9A3412}
-.t{opacity:.7}
-nav{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:15px}
-.cta{display:inline-block;margin:12px 0;padding:12px 18px;border-radius:10px;background:#2B2320;color:#FFF8EC;text-decoration:none;font-weight:600}
-dl dt{font-weight:600;margin-top:12px}
-dl dd{margin:2px 0 0}
+a{color:#9A3412}nav{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:15px}
+nav [aria-current=page]{font-weight:700;text-decoration-thickness:2px}
+.cta{display:block;margin:20px 0;padding:12px 18px;border-radius:10px;background:#2B2320;color:#FFF8EC;font-weight:600}
+dl dt{font-weight:600;margin-top:12px}dl dd{margin:2px 0 0}
 table{border-collapse:collapse;width:100%;font-size:15px}
 td{border-top:1px solid #E8D7B4;padding:6px 8px 6px 0;vertical-align:top}
 td:first-child{font-weight:600;padding-right:14px;width:28%;overflow-wrap:normal}
-p,td,dd{overflow-wrap:anywhere}
-.cta{box-sizing:border-box;max-width:100%}
-footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-top:12px}
+p,td,dd,li{overflow-wrap:anywhere}footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-top:12px}
 </style>
-<script type="application/ld+json">
-{
+<script type="application/ld+json">{
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://kebsik-game.github.io/#website",
+      "url": "https://kebsik-game.github.io/",
+      "name": "Kebsik",
+      "inLanguage": [
+        "pl",
+        "en",
+        "de",
+        "tr"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://kebsik-game.github.io/#page",
+      "url": "https://kebsik-game.github.io/",
+      "name": "Kebsik — symulator kebaba i gra ekonomiczna na Androida",
+      "description": "Prowadź budkę z kebabem w Kebsik: rozwijaj menu, zatrudniaj ekipę, wykonuj zadania i kontroluj koszty. Symulator kebaba na Androida. Rozgrywka offline.",
+      "inLanguage": "pl",
+      "isPartOf": {
+        "@id": "https://kebsik-game.github.io/#website"
+      },
+      "about": {
+        "@id": "https://kebsik-game.github.io/#game"
+      }
+    },
     {
       "@type": [
         "VideoGame",
@@ -60,47 +78,32 @@ footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-to
       "@id": "https://kebsik-game.github.io/#game",
       "name": "Kebsik: Kebab Shop Simulator",
       "alternateName": "Kebsik",
-      "image": "https://kebsik-game.github.io/logo.png",
       "url": "https://kebsik-game.github.io/",
-      "description": "Kebsik is a single-player kebab shop simulator and business game for Android. The player runs a kebab stand in a Polish city: orders meat and ingredients, sets prices and the menu, hires staff, runs marketing, takes bank loans and grows the shop into its own building and up to four more branches. It works offline, has no account and no subscription, and offers optional one-time purchases, interstitial ads removable through a purchase, and optional rewarded ads.",
-      "genre": [
-        "Simulation",
-        "Business simulation",
-        "Tycoon",
-        "Management"
-      ],
+      "description": "Kebsik to symulator kebaba i gra ekonomiczna na Androida. Otwórz własną budkę z kebabem: ustalaj ceny, zamawiaj składniki, zatrudniaj ekipę i rozwijaj lokal. Zdecyduj, w co zainwestować zarobione pieniądze.",
+      "image": "https://kebsik-game.github.io/logo.png",
+      "genre": "Symulator kebaba, gra ekonomiczna, zarządzanie restauracją",
       "gamePlatform": "Android",
       "operatingSystem": "Android",
       "applicationCategory": "GameApplication",
-      "applicationSubCategory": "Simulation",
       "playMode": "SinglePlayer",
-      "numberOfPlayers": {
-        "@type": "QuantitativeValue",
-        "value": 1
-      },
       "inLanguage": [
         "pl",
         "en",
         "de",
         "tr"
       ],
-      "typicalAgeRange": "16-",
-      "isAccessibleForFree": true,
-      "author": {
-        "@id": "https://kebsik-game.github.io/#dev"
-      },
+      "creativeWorkStatus": "InDevelopment",
       "publisher": {
         "@id": "https://kebsik-game.github.io/#dev"
-      },
-      "creativeWorkStatus": "InDevelopment"
+      }
     },
     {
       "@type": "Organization",
       "@id": "https://kebsik-game.github.io/#dev",
       "name": "Kebsik",
-      "logo": "https://kebsik-game.github.io/logo.png",
+      "url": "https://kebsik-game.github.io/",
       "email": "kayacidev@gmail.com",
-      "url": "https://kebsik-game.github.io/"
+      "logo": "https://kebsik-game.github.io/logo.png"
     },
     {
       "@type": "FAQPage",
@@ -112,23 +115,7 @@ footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-to
           "name": "Czym jest Kebsik?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kebsik (w Google Play: „Kebsik: Kebab Shop Simulator”) to jednoosobowy symulator kebaba i gra ekonomiczna na Androida. Prowadzisz lokal z kebabem w polskim mieście: zamawiasz mięso i składniki, ustalasz ceny i menu, zatrudniasz ekipę, prowadzisz kampanie reklamowe i rozwijasz budkę w sieć lokali."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Czy to gra o gotowaniu na czas?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Nie. Kebsik to symulator zarządzania, a nie zręcznościowa gra o gotowaniu. Czas płynie tygodniami i miesiącami, możesz go zatrzymać albo przyspieszyć, a wynik zależy od decyzji biznesowych: zapasów, cen, ekipy, marketingu i kredytów."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Ile kosztuje Kebsik?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Planowane pobranie z Google Play będzie bezpłatne. Gra zawiera reklamy oraz opcjonalne jednorazowe zakupy premium. Nie ma subskrypcji ani skrzynek z losową zawartością. Jednorazowy zakup „Usuń reklamy” wyłącza reklamy między miesiącami."
+            "text": "Kebsik to symulator kebaba i gra ekonomiczna na Androida. Prowadzisz lokal w polskim mieście: ustalasz ceny, zamawiasz składniki, zatrudniasz ekipę i rozwijasz menu."
           }
         },
         {
@@ -136,160 +123,76 @@ footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-to
           "name": "Czy Kebsik działa offline?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Tak. Gra działa bez internetu i bez konta; zapis gry jest przechowywany tylko na urządzeniu. Połączenie służy też do sprawdzania aktualizacji i ustawień oraz do wysyłania dobrowolnych opinii. Sama rozgrywka działa offline."
+            "text": "Podstawowa rozgrywka działa offline. Zakupy, reklamy, sprawdzanie aktualizacji i ustawień oraz dobrowolne opinie korzystają z internetu."
           }
         },
         {
           "@type": "Question",
-          "name": "Jakie reklamy są w grze?",
+          "name": "Czy to gra o gotowaniu na czas?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Krótka reklama pełnoekranowa może pojawić się po raporcie miesięcznym: nigdy w pierwszych 6 miesiącach gry, najwyżej raz na 15 minut i na 3 raporty, najwyżej 2 razy w sesji. Dobrowolny film z nagrodą można uruchomić w raporcie lub z oferty sponsora; nagroda jest ograniczona do jednej na miesiąc gry."
+            "text": "To gra o zarządzaniu restauracją. Wynik zależy od cen, jakości, zapasów, pracowników i kosztów. Czas można zatrzymać lub przyspieszyć."
           }
         },
         {
           "@type": "Question",
-          "name": "Na jakich urządzeniach i w jakich językach działa?",
+          "name": "Jak rozwija się lokal?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Kebsik jest grą na telefony z Androidem (orientacja pionowa) z planowaną premierą w Google Play. Obsługuje język polski, angielski, niemiecki i turecki."
+            "text": "Wykonujesz zadania i zdobywasz doświadczenie oraz nagrody. Kolejne poziomy odblokowują inwestycje, większy stożek mięsa, dodatkowe grille i możliwości rozwoju menu."
           }
         },
         {
           "@type": "Question",
-          "name": "Dla kogo jest ta gra?",
+          "name": "Czy potrzebuję konta?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Dla osób od 16 lat (grupa docelowa 16+), które lubią gry ekonomiczne, tycoon i zarządzanie restauracją. Oficjalna klasyfikacja IARC będzie ustalona w procesie publikacji w Google Play."
+            "text": "Nie musisz zakładać konta w grze. Zapis pozostaje na urządzeniu; korzystaj z funkcji kopii zapasowej."
           }
         },
         {
           "@type": "Question",
-          "name": "Jak skontaktować się z twórcą?",
+          "name": "Czy są reklamy i zakupy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "E-mailem: kayacidev@gmail.com."
+            "text": "Gra zawiera reklamy i opcjonalne jednorazowe zakupy. Nie ma abonamentu ani skrzynek z losową zawartością. Zakup usuwający reklamy wyłącza reklamy między miesiącami; filmy z nagrodą pozostają dobrowolne."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "W jakich językach można grać?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kebsik obsługuje język polski, angielski, niemiecki i turecki."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gdzie pobrać Kebsik?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wersja na Androida jest przygotowywana do Google Play. Link do pobrania zostanie dodany po testach i potwierdzeniu publikacji."
           }
         }
       ]
     }
   ]
-}
-</script>
+}</script>
+<script>const oldLanguage=location.hash.slice(1);if(["en","de","tr"].includes(oldLanguage))location.replace("/"+oldLanguage+"/");</script>
 </head>
 <body>
-<div class="brand"><img src="logo.png" alt="Kebsik" width="1024" height="1024" fetchpriority="high"></div>
-<nav aria-label="Język / Language"><a href="#pl" hreflang="pl">Polski</a><a href="#en" hreflang="en">English</a><a href="#de" hreflang="de">Deutsch</a><a href="#tr" hreflang="tr">Türkçe</a><a href="gizlilik.html">Prywatność / Privacy</a><a href="kosullar.html">Regulamin / Terms</a></nav>
-
-<!-- ============ POLSKI (domyslny) ============ -->
-<section id="pl" lang="pl">
+<header>
+<div class="brand"><img src="/logo.png" alt="Kebsik" width="1024" height="1024" fetchpriority="high"></div>
+<nav aria-label="Wybierz język"><a href="/" lang="pl" hreflang="pl" aria-current="page">Polski</a><a href="/en/" lang="en" hreflang="en">English</a><a href="/de/" lang="de" hreflang="de">Deutsch</a><a href="/tr/" lang="tr" hreflang="tr">Türkçe</a><a href="/gizlilik.html">Prywatność</a><a href="/kosullar.html">Regulamin</a></nav>
+</header>
+<main id="pl">
 <h1>Kebsik: Kebab Shop Simulator</h1>
-<p><b>Kebsik to symulator kebaba i gra ekonomiczna na Androida.</b> Zaczynasz od małej budki z kebabem w polskim mieście, a kończysz z własnym budynkiem i siecią lokali. Zamawiasz mięso, ustalasz ceny, zatrudniasz ekipę i sam płacisz za każdy błąd.</p>
-<!-- Google Play launch link is enabled after the release is verified. -->
+<p class="definition">Kebsik to symulator kebaba i gra ekonomiczna na Androida. Otwórz własną budkę z kebabem: ustalaj ceny, zamawiaj składniki, zatrudniaj ekipę i rozwijaj lokal. Zdecyduj, w co zainwestować zarobione pieniądze.</p>
 <p class="cta" role="status">Wersja na Androida jest w przygotowaniu. Premiera w Google Play po zakończeniu testów.</p>
-
-<h2>Najważniejsze informacje</h2>
-<table>
-<tr><td>Nazwa</td><td>Kebsik: Kebab Shop Simulator (na telefonie: Kebsik)</td></tr>
-<tr><td>Gatunek</td><td>Symulator biznesu, tycoon, zarządzanie restauracją (lokal z kebabem, fast food)</td></tr>
-<tr><td>Platforma</td><td>Android (telefon, pionowo), Google Play</td></tr>
-<tr><td>Cena</td><td>Pobranie 0 zł; reklamy i opcjonalne jednorazowe zakupy; bez subskrypcji</td></tr>
-<tr><td>Tryb</td><td>Jeden gracz, działa offline, bez konta</td></tr>
-<tr><td>Języki</td><td>polski, angielski, niemiecki, turecki</td></tr>
-<tr><td>Wiek</td><td>16+ (grupa docelowa); klasyfikacja IARC zostanie ustalona przy publikacji</td></tr>
-<tr><td>Kontakt</td><td><a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a></td></tr>
-</table>
-
-<h2>Jak wygląda gra</h2>
-<p>Kebsik jest podzielony na trzy pomieszczenia. W <b>Lokalu</b> ustalasz cenę porcji, menu, grille i godziny otwarcia. Na <b>Zapleczu</b> prowadzisz magazyn, zamawiasz mięso i składniki oraz wybierasz dostawcę. W <b>Biurze</b> zatrudniasz pracowników, prowadzisz marketing, dostawy i sprawy w banku.</p>
-<p>Mięso i warzywa się psują, więc za duże zamówienie to strata, a za małe to głodni goście, którzy odchodzą. Pracownicy na etat są stabilni, studenci tańsi, ale mają sesję i częściej odchodzą. Kampanie reklamowe przyciągają gości, lecz zbyt częste nudzą klientów. Kredyt pomaga przetrwać słaby miesiąc, a zbyt duży dług sprowadza komornika.</p>
-<p>Lokal ma 10 poziomów: kolejne odblokowują większy stożek mięsa, drugi i trzeci grill, remont i własne auta do dostaw. Możesz kupić budynek zamiast płacić czynsz i otworzyć do 4 kolejnych lokali. Pory roku, pogoda, mecze, festiwale, kontrole i karty decyzji zmieniają każdy tydzień, a co miesiąc raport wyjaśnia, skąd wziął się zysk lub strata. Są 3 poziomy trudności.</p>
-<p>Zakupy premium są jednorazowe (np. Pan Mistrz przy grillu, nowe dania, dekoracje, dodatkowi pracownicy, kierownik z podpowiedziami). Na każdym poziomie trudności da się prowadzić dochodowy lokal bez obowiązkowych zakupów; dodatki premium są opcjonalne.</p>
-
-<h2 id="faq">Najczęstsze pytania</h2>
-<dl>
-<dt>Czym jest Kebsik?</dt><dd>Kebsik (w Google Play: „Kebsik: Kebab Shop Simulator”) to jednoosobowy symulator kebaba i gra ekonomiczna na Androida. Prowadzisz lokal z kebabem w polskim mieście: zamawiasz mięso i składniki, ustalasz ceny i menu, zatrudniasz ekipę, prowadzisz kampanie reklamowe i rozwijasz budkę w sieć lokali.</dd>
-<dt>Czy to gra o gotowaniu na czas?</dt><dd>Nie. Kebsik to symulator zarządzania, a nie zręcznościowa gra o gotowaniu. Czas płynie tygodniami i miesiącami, możesz go zatrzymać albo przyspieszyć, a wynik zależy od decyzji biznesowych: zapasów, cen, ekipy, marketingu i kredytów.</dd>
-<dt>Ile kosztuje Kebsik?</dt><dd>Planowane pobranie z Google Play będzie bezpłatne. Gra zawiera reklamy oraz opcjonalne jednorazowe zakupy premium. Nie ma subskrypcji ani skrzynek z losową zawartością. Jednorazowy zakup „Usuń reklamy” wyłącza reklamy między miesiącami.</dd>
-<dt>Czy Kebsik działa offline?</dt><dd>Tak. Gra działa bez internetu i bez konta; zapis gry jest przechowywany tylko na urządzeniu. Połączenie służy też do sprawdzania aktualizacji i ustawień oraz do wysyłania dobrowolnych opinii. Sama rozgrywka działa offline.</dd>
-<dt>Jakie reklamy są w grze?</dt><dd>Krótka reklama pełnoekranowa może pojawić się po raporcie miesięcznym: nigdy w pierwszych 6 miesiącach gry, najwyżej raz na 15 minut i na 3 raporty, najwyżej 2 razy w sesji. Dobrowolny film z nagrodą można uruchomić w raporcie lub z oferty sponsora; nagroda jest ograniczona do jednej na miesiąc gry.</dd>
-<dt>Na jakich urządzeniach i w jakich językach działa?</dt><dd>Kebsik jest grą na telefony z Androidem (orientacja pionowa) z planowaną premierą w Google Play. Obsługuje język polski, angielski, niemiecki i turecki.</dd>
-<dt>Dla kogo jest ta gra?</dt><dd>Dla osób od 16 lat (grupa docelowa 16+), które lubią gry ekonomiczne, tycoon i zarządzanie restauracją. Oficjalna klasyfikacja IARC będzie ustalona w procesie publikacji w Google Play.</dd>
-<dt>Jak skontaktować się z twórcą?</dt><dd>E-mailem: <a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a>.</dd>
-</dl>
-</section>
-
-<!-- ============ ENGLISH ============ -->
-<section id="en" lang="en">
-<h2>English: Kebsik: Kebab Shop Simulator</h2>
-<p><b>Kebsik is a kebab shop simulator and business game for Android.</b> You start with a small kebab stand in a Polish city and grow it into your own building and a chain of shops. You order the meat, set the prices, hire the crew and pay for every mistake yourself.</p>
-<p class="cta" role="status">The Android release is being prepared. Google Play launch will follow testing.</p>
-<table>
-<tr><td>Genre</td><td>Business simulator, tycoon, restaurant management (kebab shop, fast food)</td></tr>
-<tr><td>Platform</td><td>Android phones (portrait), Google Play</td></tr>
-<tr><td>Price</td><td>0 to download; contains ads and optional one-time purchases; no subscription</td></tr>
-<tr><td>Mode</td><td>Single player, works offline, no account</td></tr>
-<tr><td>Languages</td><td>Polish, English, German, Turkish</td></tr>
-<tr><td>Age</td><td>16+ (target audience); IARC rating to be determined during publication</td></tr>
-<tr><td>Contact</td><td><a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a></td></tr>
-</table>
-<p>The game has three rooms: the <b>Shop</b> (price, menu, grills, opening hours), the <b>Prep room</b> (storeroom, meat and ingredient orders, supplier) and the <b>Head office</b> (staff, marketing, delivery, bank). Meat and vegetables spoil, students are cheap but quit more often, too many ad campaigns tire customers, and too much debt brings the bailiff. The shop has 10 levels that unlock a bigger meat cone, a second and third grill, a renovation and delivery cars; you can buy the building and open up to 4 more branches. A monthly report explains where your profit or loss came from. There are 3 difficulty levels.</p>
-<h3>FAQ</h3>
-<dl>
-<dt>What is Kebsik?</dt><dd>Kebsik ("Kebsik: Kebab Shop Simulator" on Google Play) is a single-player kebab shop simulator and business game for Android about running a kebab shop in a Polish city.</dd>
-<dt>Is it a timed cooking game?</dt><dd>No. It is a management sim: time runs in weeks and months, you can pause or speed it up, and the result depends on business decisions such as stock, prices, staff, marketing and loans.</dd>
-<dt>How much does it cost?</dt><dd>The planned download will be free. The game contains ads and optional one-time premium purchases. There is no subscription and there are no loot boxes. A one-time "Remove ads" purchase turns off the ads between months.</dd>
-<dt>Does it work offline?</dt><dd>Yes. It needs no internet connection and no account; your save stays on your device. A connection is also used to check updates and settings and to send optional feedback. Core gameplay works offline.</dd>
-<dt>Can I play without paying?</dt><dd>The core game can be played without purchases. Optional premium extras unlock additional content.</dd>
-<dt>How do I contact the developer?</dt><dd>By e-mail: <a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a>.</dd>
-</dl>
-</section>
-
-<!-- ============ DEUTSCH ============ -->
-<section id="de" lang="de">
-<h2>Deutsch: Kebsik – Döner-Imbiss Simulator</h2>
-<p><b>Kebsik ist ein Döner-Imbiss-Simulator und Wirtschaftsspiel für Android.</b> Du startest mit einem kleinen Kebab-Stand in einer polnischen Stadt und baust ihn zum eigenen Gebäude und zu einer Imbisskette aus: Fleisch bestellen, Preise festlegen, Team einstellen, Werbung machen, Kredite aufnehmen.</p>
-<p class="cta" role="status">Die Android-Version wird vorbereitet. Der Google-Play-Start folgt nach den Tests.</p>
-<table>
-<tr><td>Genre</td><td>Wirtschaftssimulation, Tycoon, Restaurant-Management (Döner-Imbiss)</td></tr>
-<tr><td>Plattform</td><td>Android-Smartphones (Hochformat), Google Play</td></tr>
-<tr><td>Preis</td><td>Download 0 €; enthält Werbung und optionale Einmalkäufe; kein Abo</td></tr>
-<tr><td>Modus</td><td>Einzelspieler, offline spielbar, ohne Konto</td></tr>
-<tr><td>Sprachen</td><td>Deutsch, Polnisch, Englisch, Türkisch</td></tr>
-<tr><td>Alter</td><td>16+ (Zielgruppe); IARC-Einstufung folgt bei Veröffentlichung</td></tr>
-<tr><td>Kontakt</td><td><a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a></td></tr>
-</table>
-<dl>
-<dt>Ist Kebsik ein Kochspiel?</dt><dd>Nein, eine Wirtschaftssimulation: Die Zeit läuft in Wochen und Monaten, lässt sich pausieren oder beschleunigen, und es zählen Entscheidungen zu Vorrat, Preis, Team, Marketing und Krediten.</dd>
-<dt>Funktioniert Kebsik offline?</dt><dd>Ja, ohne Internet und ohne Konto; der Spielstand bleibt auf dem Gerät.</dd>
-<dt>Gibt es ein Abo?</dt><dd>Nein. Es gibt nur optionale Einmalkäufe; „Werbung entfernen“ schaltet die Werbung zwischen den Monaten ab.</dd>
-</dl>
-</section>
-
-<!-- ============ TURKCE ============ -->
-<section id="tr" lang="tr">
-<h2>Türkçe: Kebsik – kebap oyunu</h2>
-<p><b>Kebsik, Android için bir kebap oyunu ve işletme simülasyonudur.</b> Bir Polonya şehrinde küçük bir kebap tezgâhıyla başlar, onu kendi binana ve şubelerden oluşan bir zincire dönüştürürsün: et sipariş eder, fiyat belirler, ekip kurar, reklam yapar, kredi çekersin.</p>
-<p class="cta" role="status">Android sürümü hazırlanıyor. Testler tamamlandıktan sonra Google Play’de yayımlanacak.</p>
-<table>
-<tr><td>Tür</td><td>İşletme simülasyonu, tycoon, restoran yönetimi (kebapçı, fast food)</td></tr>
-<tr><td>Platform</td><td>Android telefon (dikey), Google Play</td></tr>
-<tr><td>Fiyat</td><td>İndirmesi 0 ₺; reklam ve isteğe bağlı tek seferlik alımlar içerir; abonelik yok</td></tr>
-<tr><td>Mod</td><td>Tek oyunculu, internetsiz oynanır, hesap gerekmez</td></tr>
-<tr><td>Diller</td><td>Türkçe, Lehçe, İngilizce, Almanca</td></tr>
-<tr><td>Yaş</td><td>16+ (hedef kitle); IARC derecesi yayın sürecinde belirlenecek</td></tr>
-<tr><td>İletişim</td><td><a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a></td></tr>
-</table>
-<dl>
-<dt>Kebsik bir yemek yapma oyunu mu?</dt><dd>Hayır, bir dükkan işletme oyunu: zaman hafta ve ay olarak akar, durdurup hızlandırabilirsin; sonucu stok, fiyat, ekip, reklam ve kredi kararların belirler.</dd>
-<dt>İnternetsiz oynanır mı?</dt><dd>Evet, internet ve hesap gerekmez; kayıt yalnızca cihazında durur.</dd>
-<dt>Abonelik var mı?</dt><dd>Hayır. Yalnızca isteğe bağlı tek seferlik alımlar var; "Reklamları kaldır" aylar arasındaki reklamları kapatır.</dd>
-</dl>
-</section>
-
-<footer>
-<p>Kebsik · <a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a> · <a href="gizlilik.html">Polityka prywatności / Privacy</a> · <a href="kosullar.html">Regulamin / Terms</a></p>
-<p class="t">Google Play jest znakiem towarowym Google LLC. / Google Play is a trademark of Google LLC.</p>
-</footer>
+<section><h2>Najważniejsze informacje</h2><table><tr><td>Platforma</td><td>Telefony z Androidem, orientacja pionowa</td></tr><tr><td>Tryb</td><td>Jeden gracz; podstawowa rozgrywka offline</td></tr><tr><td>Języki</td><td>Polski, angielski, niemiecki, turecki</td></tr><tr><td>Pobieranie i zakupy</td><td>Planowane pobranie bez opłat; reklamy i opcjonalne jednorazowe zakupy; bez subskrypcji</td></tr><tr><td>Dostępność</td><td>Wersja w przygotowaniu; premiera po testach</td></tr><tr><td>Kontakt</td><td>kayacidev@gmail.com</td></tr></table></section>
+<section><h2>Twój lokal, twoje decyzje</h2><p>Dobierz cenę do jakości, pilnuj zapasów i sprawdzaj, dlaczego goście odchodzą z kolejki. Większy grill pomaga przy dużym popycie, a dodatkowy pracownik ma zarówno zalety, jak i koszt. Miesięczny raport pokazuje przychody, wydatki i wynik lokalu.</p></section><section><h2>Cel na każdy etap</h2><p>Wykonuj zadania, zdobywaj doświadczenie i nagrody. Odblokowuj nowe możliwości, rozszerzaj menu i planuj kolejne inwestycje. Pan Mistrz pomaga poznać życie za ladą, a krótkie aktywności pozwalają zadbać o gości i przyciągnąć nowych klientów.</p></section><section><h2>Żywe miasto</h2><p>Pogoda, wydarzenia i karty decyzji wpływają na działanie lokalu. Goście przychodzą, zamawiają i siadają przy stolikach. Możesz zatrzymać czas, zastanowić się nad decyzją i wrócić do prowadzenia biznesu.</p></section><section><h2>Graj po swojemu</h2><p>Wybierz poziom trudności. Rozwijaj lokal przez ceny, jakość, menu, ekipę i marketing. To tycoon o zarządzaniu restauracją: Twoje decyzje mają koszty i skutki.</p></section><section><h2>Warto wiedzieć</h2><ul><li>Podstawowa rozgrywka działa offline; zakupy, reklamy, aktualizacje i dobrowolne opinie korzystają z internetu.</li><li>Bez zakładania konta w grze. Zapis pozostaje na urządzeniu; zalecamy korzystanie z funkcji kopii zapasowej.</li><li>Gra zawiera reklamy i opcjonalne jednorazowe zakupy. Nie ma abonamentu ani skrzynek z losową zawartością.</li><li>Zakup usuwający reklamy wyłącza reklamy między miesiącami. Filmy z nagrodą pozostają dobrowolne.</li><li>Języki: polski, turecki, angielski i niemiecki.</li></ul></section>
+<section id="faq"><h2>Pytania o grę</h2><dl><dt>Czym jest Kebsik?</dt><dd>Kebsik to symulator kebaba i gra ekonomiczna na Androida. Prowadzisz lokal w polskim mieście: ustalasz ceny, zamawiasz składniki, zatrudniasz ekipę i rozwijasz menu.</dd><dt>Czy Kebsik działa offline?</dt><dd>Podstawowa rozgrywka działa offline. Zakupy, reklamy, sprawdzanie aktualizacji i ustawień oraz dobrowolne opinie korzystają z internetu.</dd><dt>Czy to gra o gotowaniu na czas?</dt><dd>To gra o zarządzaniu restauracją. Wynik zależy od cen, jakości, zapasów, pracowników i kosztów. Czas można zatrzymać lub przyspieszyć.</dd><dt>Jak rozwija się lokal?</dt><dd>Wykonujesz zadania i zdobywasz doświadczenie oraz nagrody. Kolejne poziomy odblokowują inwestycje, większy stożek mięsa, dodatkowe grille i możliwości rozwoju menu.</dd><dt>Czy potrzebuję konta?</dt><dd>Nie musisz zakładać konta w grze. Zapis pozostaje na urządzeniu; korzystaj z funkcji kopii zapasowej.</dd><dt>Czy są reklamy i zakupy?</dt><dd>Gra zawiera reklamy i opcjonalne jednorazowe zakupy. Nie ma abonamentu ani skrzynek z losową zawartością. Zakup usuwający reklamy wyłącza reklamy między miesiącami; filmy z nagrodą pozostają dobrowolne.</dd><dt>W jakich językach można grać?</dt><dd>Kebsik obsługuje język polski, angielski, niemiecki i turecki.</dd><dt>Gdzie pobrać Kebsik?</dt><dd>Wersja na Androida jest przygotowywana do Google Play. Link do pobrania zostanie dodany po testach i potwierdzeniu publikacji.</dd></dl></section>
+</main>
+<footer><p>Kebsik · <a href="mailto:kayacidev@gmail.com">kayacidev@gmail.com</a> · <a href="/gizlilik.html">Prywatność</a> · <a href="/kosullar.html">Regulamin</a></p></footer>
 </body>
 </html>
