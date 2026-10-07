@@ -1,0 +1,11 @@
+{
+  "reklam": {
+    "gecisAcik": true,
+    "odulAcik": true,
+    "ilkAy": 6,
+    "aralikDk": 15,
+    "ayArasi": 3,
+    "oturumTavan": 2
+  },
+  "minSurum": "1.0.0"
+}
