@@ -7,6 +7,7 @@
 <meta name="description" content="Kebsik to symulator kebaba i gra ekonomiczna na Androida: prowadzisz budkę z kebabem, zamawiasz mięso, ustalasz ceny, zatrudniasz ekipę i otwierasz kolejne lokale. Offline, 4 języki, jednorazowe zakupy, bez subskrypcji.">
 <!-- KANONIK: yayindaki kok adres (docs/DEVAM_PLANI.md). Alan adi degisirse burayi, og:url'yi, hreflang'leri ve JSON-LD "url"yi birlikte degistir. -->
 <link rel="canonical" href="https://kebsik-game.github.io/">
+<link rel="icon" type="image/png" sizes="1024x1024" href="logo.png">
 <link rel="alternate" hreflang="pl" href="https://kebsik-game.github.io/">
 <link rel="alternate" hreflang="en" href="https://kebsik-game.github.io/#en">
 <link rel="alternate" hreflang="de" href="https://kebsik-game.github.io/#de">
@@ -21,13 +22,16 @@
 <meta property="og:locale:alternate" content="en_US">
 <meta property="og:locale:alternate" content="de_DE">
 <meta property="og:locale:alternate" content="tr_TR">
-<!-- og:image: 1200x630 gorsel yuklenince ac (ornek: tanitim/magaza/play/one_cikan_pl.png'den turet, kokte og.png).
-<meta property="og:image" content="https://kebsik-game.github.io/og.png">
-<meta name="twitter:card" content="summary_large_image">
--->
+<meta property="og:image" content="https://kebsik-game.github.io/logo.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+<meta property="og:image:alt" content="Kebsik">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://kebsik-game.github.io/logo.png">
 <style>
 body{font:16px/1.55 system-ui,sans-serif;max-width:760px;margin:24px auto;padding:0 16px;color:#2B2320;background:#FFF8EC}
+.brand{display:flex;justify-content:center;margin:0 0 20px}
+.brand img{display:block;width:180px;height:auto;max-width:100%;object-fit:contain}
 h1{font-size:26px;line-height:1.2;margin:8px 0}
 h2{margin-top:28px;border-top:1px solid #E8D7B4;padding-top:16px;font-size:20px}
 h3{font-size:17px;margin:18px 0 4px}
@@ -56,6 +60,7 @@ footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-to
       "@id": "https://kebsik-game.github.io/#game",
       "name": "Kebsik: Kebab Shop Simulator",
       "alternateName": "Kebsik",
+      "image": "https://kebsik-game.github.io/logo.png",
       "url": "https://kebsik-game.github.io/",
       "description": "Kebsik is a single-player kebab shop simulator and business game for Android. The player runs a kebab stand in a Polish city: orders meat and ingredients, sets prices and the menu, hires staff, runs marketing, takes bank loans and grows the shop into its own building and up to four more branches. It works offline, has no account and no subscription, and offers optional one-time purchases, interstitial ads removable through a purchase, and optional rewarded ads.",
       "genre": [
@@ -93,6 +98,7 @@ footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-to
       "@type": "Organization",
       "@id": "https://kebsik-game.github.io/#dev",
       "name": "Kebsik",
+      "logo": "https://kebsik-game.github.io/logo.png",
       "email": "kayacidev@gmail.com",
       "url": "https://kebsik-game.github.io/"
     },
@@ -172,6 +178,7 @@ footer{margin:36px 0 12px;font-size:14px;border-top:1px solid #E8D7B4;padding-to
 </script>
 </head>
 <body>
+<div class="brand"><img src="logo.png" alt="Kebsik" width="1024" height="1024" fetchpriority="high"></div>
 <nav aria-label="Język / Language"><a href="#pl" hreflang="pl">Polski</a><a href="#en" hreflang="en">English</a><a href="#de" hreflang="de">Deutsch</a><a href="#tr" hreflang="tr">Türkçe</a><a href="gizlilik.html">Prywatność / Privacy</a><a href="kosullar.html">Regulamin / Terms</a></nav>
 
 <!-- ============ POLSKI (domyslny) ============ -->
