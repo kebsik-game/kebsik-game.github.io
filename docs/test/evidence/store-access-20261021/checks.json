@@ -1,0 +1,77 @@
+{
+  "views": 8,
+  "results": [
+    {
+      "lang": "pl",
+      "width": 360,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    },
+    {
+      "lang": "pl",
+      "width": 390,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    },
+    {
+      "lang": "tr",
+      "width": 360,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    },
+    {
+      "lang": "tr",
+      "width": 390,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    },
+    {
+      "lang": "en",
+      "width": 360,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    },
+    {
+      "lang": "de",
+      "width": 360,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    },
+    {
+      "lang": "de",
+      "width": 390,
+      "twoJoinSteps": true,
+      "storeLink": true,
+      "horizontalOverflow": false,
+      "errors": [],
+      "external": []
+    }
+  ]
+}
