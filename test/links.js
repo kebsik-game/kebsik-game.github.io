@@ -3,7 +3,7 @@
 // Verified in Google Groups and Play Console > Alpha > Testers on 2026-10-21.
 // SAHİP: If either URL changes, verify both before enabling the actions again.
 // Never substitute a guessed group slug. All language pages share this file.
-const GROUP_LINK = "https://groups.google.com/g/kebsik-closed-testing-2026";
+const GROUP_LINK = "https://groups.google.com/g/kebsik-closed-testing-2026/about";
 const PLAY_JOIN_LINK = "https://play.google.com/apps/testing/com.kebsik.game";
 const LINKS_VERIFIED = true;
 
@@ -19,7 +19,7 @@ function validTestLink(value, host, path) {
 }
 
 const linksReady = LINKS_VERIFIED &&
-  validTestLink(GROUP_LINK, "groups.google.com", /^\/g\/[a-z0-9][a-z0-9-]*\/?$/) &&
+  validTestLink(GROUP_LINK, "groups.google.com", /^\/g\/[a-z0-9][a-z0-9-]*\/about\/?$/) &&
   validTestLink(PLAY_JOIN_LINK, "play.google.com", /^\/apps\/testing\/[a-zA-Z0-9_.]+\/?$/);
 
 if (linksReady) {
