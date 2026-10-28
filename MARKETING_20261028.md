@@ -20,3 +20,5 @@ NODE_PATH=/path/to/kebsik/node_modules CHROMIUM=/usr/bin/chromium SITE_CHECK_OUT
 ```
 
 Yapısal 8 sayfa,360/390 px'te 16 mobil durum; CTA kontrastı, taşma, kaynak hatası, dış ağ isteği ve QR/dil bağlantı uyumluluğu kontrol edilir. Testler Google hesabında gerçekten katılma, Play yayın izni veya AdMob gelir kabulü değildir. Ana sayfa yayın durumunu yalnız gerçek üretim erişimi doğrulandığında genel yayına çevirmek gerekir.
+
+İnceleme: mağaza paketi https://github.com/kayaci325/deneme/pull/106 · bu site https://github.com/kebsik-game/kebsik-game.github.io/pull/4.
