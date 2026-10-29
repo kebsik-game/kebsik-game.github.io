@@ -1,0 +1,20 @@
+# Kebsik
+
+> Kebsik is a single-player kebab shop management game for Android, currently available through a Google Play closed test.
+
+The base gameplay works offline. Ads, purchases and optional feedback require internet. In-game time advances while the game is running; offline earnings are not offered. Optional purchases are one-time purchases. Ad removal covers interstitial ads; rewarded videos remain optional.
+
+## Official pages
+- [Polski](https://kebsik-game.github.io/): game description and FAQ.
+- [Türkçe](https://kebsik-game.github.io/tr/): oyun bilgileri ve sorular.
+- [English](https://kebsik-game.github.io/en/): game details and FAQ.
+- [Deutsch](https://kebsik-game.github.io/de/): Spielinformationen und Fragen.
+- [Android closed test](https://kebsik-game.github.io/test/): two-step test access.
+- [Privacy](https://kebsik-game.github.io/gizlilik.html)
+- [Terms](https://kebsik-game.github.io/kosullar.html)
+
+## Identity
+- Brand: Kebsik
+- Android package: com.kebsik.game
+- Languages: Polish, Turkish, English, German
+- Contact: kayacidev@gmail.com
